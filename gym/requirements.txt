@@ -1,0 +1,12 @@
+pyyaml
+numpy
+torch==2.1.0
+tensorflow==2.15.0
+gym==0.22.0
+mujoco-py
+transformers==4.11.0
+tokenizers
+cython==0.29.37
+einops
+causal-conv1d==1.2.0.post2
+mamba-ssm==1.2.0.post1
