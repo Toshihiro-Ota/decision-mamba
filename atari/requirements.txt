@@ -1,0 +1,13 @@
+pyyaml
+opencv-python
+numpy
+tqdm
+absl-py
+torch==2.1.0
+tensorflow==2.15.0
+atari-py==0.2.9
+blosc
+git+https://github.com/google/dopamine.git
+einops
+causal-conv1d==1.2.0.post2
+mamba-ssm==1.2.0.post1
