@@ -1,16 +1,14 @@
 # Decision Mamba
 
-<!--! Update this README right after the submission of the paper to arXiv -->
-
 Reinforcement Learning via Sequence Modeling with Selective State Spaces<br>
-https://arxiv.org/abs/2404.xxxxx
+https://arxiv.org/abs/2403.19925
 
 ## Architecture
 
 Below is the overview of our main module, the Mamba layer:
 ![mambablock](./assets/fig.png)
 
-We adopt the basic Transformer-type neural network architecture for the Mamba layer, namely it consists of the token-mixing block and the channel-mixing block. The right-hand side of the figure illustrates the series of operations performed inside the Mamba block. $\sigma$ is the $\mathrm{SiLU}$ activation function and $\odot$ denotes the element-wise product. For more details, see Section 3 of the [paper](https://arxiv.org/abs/2404.xxxxx).
+We adopt the basic Transformer-type neural network architecture for the Mamba layer, namely it consists of the token-mixing block and the channel-mixing block. The right-hand side of the figure illustrates the series of operations performed inside the Mamba block. $\sigma$ is the $\mathrm{SiLU}$ activation function and $\odot$ denotes the element-wise product. For more details, see Section 3 of the [paper](https://arxiv.org/abs/2403.19925).
 
 ## Instructions
 
@@ -28,7 +26,7 @@ If you use our code, or otherwise found our work useful, please cite the accompa
 @article{ota2024decision,
     title   = {Decision Mamba: Reinforcement Learning via Sequence Modeling with Selective State Spaces},
     author  = {Toshihiro Ota},
-    journal = {arXiv preprint arXiv:2403.xxxxx},
+    journal = {arXiv preprint arXiv:2403.19925},
     year    = {2024}
 }
 ```
